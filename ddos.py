@@ -33,17 +33,11 @@ port = raw_input("Enter Your Target Port >> ")
 
 os.system("clear")
 os.system("figlet Starting Attack...")
-print "[                    ] 0% "
+print("-" * 50)
 time.sleep(5)
-print "[=====               ] 15%"
+print("Attack Started")
 time.sleep(5)
-print "[=======              ] 40%"
-time.sleep(5)
-print "[==========          ] 50%"
-time.sleep(5)
-print "[===============     ] 75%"
-time.sleep(5)
-print "[====================] 100%"
+print("-" * 50)
 time.sleep(5)
 sent = 0
 while True:
