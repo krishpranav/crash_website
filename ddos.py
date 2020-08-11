@@ -24,6 +24,8 @@ def author():
  print("Github Link https://www.github.com/krishpranav")
  print("Do Not Forget To Follow Me :)")
 
+author()
+ 
 print("""
 \033[1;31m_________                      .__       __      __      ___.          .__  __          
 \033[1;31m\_   ___ \____________    _____|  |__   /  \    /  \ ____\_ |__   _____|__|/  |_  ____  
